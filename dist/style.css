@@ -1,0 +1,24 @@
+
+/* Modal Box */
+.right .modal-dialog,
+.left .modal-dialog {
+    transition: transform .25s ease-out;
+    position: fixed;
+    margin: auto;
+    height: 100%;
+}
+.modal.right .modal-content,
+.modal.left .modal-content {
+    overflow-y: auto;
+  	border-radius: 0;
+  	border: none;
+    height: 100%;
+}
+.right .modal-dialog {
+    transform: translateX(50px);
+    right: 0;
+}
+.left .modal-dialog {
+    transform: translateX(-50px);
+    left: 0;
+}
